@@ -1,4 +1,4 @@
 <img src="https://raw.githubusercontent.com/ZenixCodez/ZenixCodez/main/assets/banner.png" />
 
 ## About Me 🗒️
-Hi!, I'm **Zenix** from the Andromeda galaxy. I'm a <ins>**Full-Stack developer**</ins> with over 5 years of experience. I've worked in a lot of projects involving different and emerging technologies. Hope you love my GitHub profile!
+Hey, cosmic voyagers! I'm **Zenix**, touching down from the Andromeda galaxy. I've been in the <ins>**Full-Stack developent**</ins> field for a stellar five years, dancing with an array of projects that groove to the beats of diverse and budding technologies. Buckle up and dive into my GitHub galaxy – your love's the fuel that keeps this starship soaring!
