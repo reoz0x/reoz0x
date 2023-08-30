@@ -1,4 +1,17 @@
 <img src="https://raw.githubusercontent.com/ZenixCodez/ZenixCodez/main/assets/banner.png" />
 
 ## About Me 🗒️
-Hey, cosmic voyagers! I'm **Zenix**, touching down from the Andromeda galaxy. I've been in the <ins>**Full-Stack developent**</ins> field for a stellar five years, dancing with an array of projects that groove to the beats of diverse and budding technologies. Buckle up and dive into my GitHub galaxy – your love's the fuel that keeps this starship soaring!
+Hey, cosmic voyagers! I'm **Zenix**, touching down from the Andromeda galaxy. I've been in the <ins>**Full-Stack development**</ins> field for a stellar five years, dancing with an array of projects that groove to the beats of diverse and budding technologies. Buckle up and dive into my GitHub galaxy – your love's the fuel that keeps this starship soaring!
+
+```ts
+const zenix = {
+  From: "The Andromeda Galaxy",
+  Languages: ["JavaScript", "Python", "TypeScript", "Java", "C#"],
+  Followers: 0,
+  Following: 0,
+  TotalCommits: 0,
+  StarsGiven: 0,
+  TotalContributions: 0,
+  Repositories: 0,
+};
+```
