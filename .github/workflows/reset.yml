@@ -40,7 +40,7 @@ jobs:
       - name: Commit & Push
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-          config user.name "${GITHUB_ACTOR}"
+          git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add .
           git commit -am "[Automatic] Updated Stats ReadMe.md"
