@@ -19,7 +19,7 @@ jobs:
       - name: Overwrite file
         uses: "DamianReeves/write-file-action@master"
         with:
-          path: ${{ env.home }}/README.md
+          path: /README.md
           write-mode: overwrite
           contents: |
             <img src="https://raw.githubusercontent.com/ZenixCodez/ZenixCodez/main/assets/banner.png" />
