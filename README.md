@@ -7,8 +7,6 @@ Hey, cosmic voyagers! I'm **Zenix**, touching down from the Andromeda galaxy. I'
 const zenix = {
     From: "The Andromeda Galaxy",
     Languages: ["JavaScript", "Python", "TypeScript", "Java", "C#"],
-    Followers: 0,
-    Following: 0,
     TotalCommits: 0,
     StarsGiven: 0,
     TotalContributions: 0,

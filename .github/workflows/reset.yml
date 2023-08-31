@@ -1,0 +1,46 @@
+name: Overwrite readme file
+
+on:
+  schedule:
+    - cron: '* * * * *'
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Overwrite file
+        uses: "DamianReeves/write-file-action@master"
+        with:
+          path: ${{ env.home }}/README.md
+          write-mode: overwrite
+          contents: |
+            <img src="https://raw.githubusercontent.com/ZenixCodez/ZenixCodez/main/assets/banner.png" />
+
+            ## About Me 🗒️
+            Hey, cosmic voyagers! I'm **Zenix**, touching down from the Andromeda galaxy. I've been in the <ins>**Full-Stack development**</ins> field for a stellar five years, dancing with an array of projects that groove to the beats of diverse and budding technologies. Buckle up and dive into my GitHub galaxy – your love's the fuel that keeps this starship soaring!
+
+            ```ts
+            const zenix = {
+                From: "The Andromeda Galaxy",
+                Languages: ["JavaScript", "Python", "TypeScript", "Java", "C#"],
+                TotalCommits: {{ COMMITS }},
+                StarsGiven: {{ STARS }},
+                Repositories: {{ REPOSITORIES }},
+                TotalContributedRepos: {{ REPOSITORIES_CONTRIBUTED_TO }},
+            };
+            ```
+      - name: Commit & Push
+        uses: Andro999b/push@v1.3
+        with:
+          github_token: ${{ secrets.USER_TOKEN }}
+          branch: main
+          force: true
+          message: 'ReadMe reset'

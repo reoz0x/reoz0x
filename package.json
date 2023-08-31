@@ -1,0 +1,19 @@
+{
+  "name": "zenixcodez",
+  "version": "1.0.0",
+  "description": "My github profile readme  repository",
+  "main": "src/updater.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenixCodez/ZenixCodez.git"
+  },
+  "author": "Zenix | (zenixcodez@skiff.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZenixCodez/ZenixCodez/issues"
+  },
+  "homepage": "https://github.com/ZenixCodez/ZenixCodez#readme"
+}
