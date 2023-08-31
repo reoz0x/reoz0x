@@ -8,7 +8,7 @@ const zenix = {
     From: "The Andromeda Galaxy",
     Languages: ["JavaScript", "Python", "TypeScript", "Java", "C#"],
     TotalCommits: 0,
-    StarsGiven: 0,
+    StarsReceived: 0,
     TotalContributions: 0,
     Repositories: 0,
 };

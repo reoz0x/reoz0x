@@ -31,7 +31,7 @@ jobs:
                 From: "The Andromeda Galaxy",
                 Languages: ["JavaScript", "Python", "TypeScript", "Java", "C#"],
                 TotalCommits: {{ COMMITS }},
-                StarsGiven: {{ STARS }},
+                StarsReceived: {{ STARS }},
                 Repositories: {{ REPOSITORIES }},
                 TotalContributedRepos: {{ REPOSITORIES_CONTRIBUTED_TO }},
             };
