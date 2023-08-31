@@ -38,9 +38,11 @@ jobs:
             };
             ```
       - name: Update README.md
-        run: |
-          git config user.name ZenixCodez
-          git config user.email zenix397@gmail.com
-          git add .
-          git commit -m "ReadME Reset 🔃"
-          git push origin main
+          run: |
+            if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name "${GITHUB_ACTOR}"
+            git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+            git add .
+            git commit -am "ReadME Reset"
+            git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+            fi
