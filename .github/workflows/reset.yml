@@ -1,11 +1,11 @@
 name: Overwrite readme file
 
 on:
-  schedule:
-    - cron: "* * * * *"
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 */12 * * *"
 
 jobs:
   build:
