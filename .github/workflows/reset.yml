@@ -1,4 +1,4 @@
-name: Overwrite some file
+name: Overwrite readme file
 
 on:
   schedule:
