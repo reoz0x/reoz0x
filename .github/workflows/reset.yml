@@ -38,8 +38,7 @@ jobs:
             };
             ```
       - name: Update README.md
-        run: 
-          if [[ "$(git status --porcelain)" != "" ]]; then
+        run: |
           git config user.name ZenixCodez
           git config user.email zenix397@gmail.com
           git add .
