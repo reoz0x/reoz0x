@@ -37,10 +37,12 @@ jobs:
                 TotalContributedRepos: {{ REPOSITORIES_CONTRIBUTED_TO }},
             };
             ```
-      - name: Commit & Push
-        uses: Andro999b/push@v1.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
-          message: 'ReadMe reset'
+      - name: Update README.md
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit -m "ReadME Reset 🔃"
+          git push
+          fi
