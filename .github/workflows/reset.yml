@@ -40,9 +40,8 @@ jobs:
       - name: Update README.md
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config user.name ZenixCodez
+          git config user.email zenix397@gmail.com
           git add .
           git commit -m "ReadME Reset 🔃"
-          git push
-          fi
+          git push origin main
