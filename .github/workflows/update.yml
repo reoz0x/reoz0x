@@ -17,6 +17,7 @@ jobs:
         uses: teoxoy/profile-readme-stats@v2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
+          template: ./README.md
       - name: Commit & Push
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
