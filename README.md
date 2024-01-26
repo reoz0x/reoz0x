@@ -7,9 +7,9 @@ Hey, cosmic voyagers! I'm **Ridg.**, touching down from the Andromeda galaxy. I'
 const Ridg = {
     From: "The Andromeda Galaxy",
     Languages: ["JavaScript", "Python", "TypeScript", "Java", "C#"],
-    TotalCommits: 6,
-    StarsReceived: 3,
-    Repositories: 2,
-    TotalContributedRepos: 0,
+    TotalCommits: {{ COMMITS }},
+    StarsReceived: {{ STARS }},
+    Repositories: {{ REPOSITORIES }},
+    TotalContributedRepos: {{ REPOSITORIES_CONTRIBUTED_TO }},
 };
 ```
