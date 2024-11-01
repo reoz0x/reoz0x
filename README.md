@@ -7,9 +7,9 @@ Hey, cosmic voyagers! I'm **Reoz**, touching down from the Andromeda galaxy. I'v
 const Reoz = {
     From: "The Andromeda Galaxy",
     Languages: ["JavaScript", "Python", "TypeScript", "Java", "C#"],
-    TotalCommits: 572,
-    StarsReceived: 2,
-    Repositories: 3,
-    TotalContributedRepos: 9,
+    TotalCommits: {{ COMMITS }},
+    StarsReceived: {{ STARS }},
+    Repositories: {{ REPOSITORIES }},
+    TotalContributedRepos: {{ REPOSITORIES_CONTRIBUTED_TO }},
 };
 ```
